@@ -6,21 +6,21 @@ import { InputAddressComponent } from './input-address/input-address.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-import { AddressListComponent } from './address-list/address-list.component';
 import {MatListModule} from '@angular/material/list';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputAddressComponent,
-    AddressListComponent
+    InputAddressComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatListModule
+    MatListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
